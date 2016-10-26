@@ -60,11 +60,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MethodChainingExtensions.cs" />
+    <Compile Include="QueryModel\MethodChainingExtensions.cs" />
+    <Compile Include="QueryModel\ParseObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryModel\Enums.cs" />
     <Compile Include="QueryModel\IChainable.cs" />
-    <Compile Include="QueryModel\IQueryWithParams.cs" />
-    <Compile Include="QueryModel\QueryWithParams.cs" />
     <Compile Include="WebQuery.cs" />
   </ItemGroup>
   <ItemGroup>
